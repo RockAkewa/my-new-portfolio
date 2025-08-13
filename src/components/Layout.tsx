@@ -28,7 +28,7 @@ const Layout = ({ children }: LayoutProps) => {
         <div className="flex flex-col items-center mb-8">
           <div className="w-24 h-24 rounded-full overflow-hidden mb-4 ring-4 ring-white/20">
             <img 
-              src="/lovable-uploads/c98726ba-2596-48de-8deb-4bfeac017d8e.png" 
+              src="/rock-uploads/c98726ba-2596-48de-8deb-4bfeac017d8e.png" 
               alt="Rock Akewa" 
               className="w-full h-full object-cover"
             />
@@ -102,7 +102,7 @@ const Layout = ({ children }: LayoutProps) => {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full overflow-hidden ring-2 ring-white/20">
               <img 
-                src="/lovable-uploads/c98726ba-2596-48de-8deb-4bfeac017d8e.png" 
+                src="/rock-uploads/c98726ba-2596-48de-8deb-4bfeac017d8e.png" 
                 alt="Rock Akewa" 
                 className="w-full h-full object-cover"
               />
