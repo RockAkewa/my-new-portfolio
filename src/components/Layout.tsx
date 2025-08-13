@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home, User, Briefcase, Phone, ExternalLink, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import LanguageToggle from './LanguageToggle';
+
 interface LayoutProps {
   children: React.ReactNode;
 }
@@ -24,7 +24,6 @@ const Layout = ({ children }: LayoutProps) => {
     <div className="min-h-screen bg-background">
 
       {/* Desktop Sidebar */}
-      <LanguageToggle />
       <aside className="fixed left-0 top-0 z-50 h-full w-80 bg-nav-bg p-6 hidden lg:flex flex-col">
         <div className="flex flex-col items-center mb-8">
           <div className="w-24 h-24 rounded-full overflow-hidden mb-4 ring-4 ring-white/20">
@@ -91,7 +90,7 @@ const Layout = ({ children }: LayoutProps) => {
 
         <div className="mt-6 pt-6 border-t border-white/20">
           <div className="text-nav-fg/60 text-xs text-center">
-            <p>© 2024 Rock Akewa</p>
+            <p>© 2025 Rock Akewa</p>
             <p className="mt-1">All rights reserved</p>
           </div>
         </div>

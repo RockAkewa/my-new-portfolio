@@ -8,8 +8,7 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import LanguageToggle from "./components/LanguageToggle"; // 👈 Import toggle
-import { LanguageProvider } from '@/context/LanguageContext';
+
 
 const queryClient = new QueryClient();
 
@@ -18,9 +17,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <LanguageProvider children={""}/>
       <BrowserRouter>
-      <LanguageToggle /> {/* 👈 Add toggle at the top */}
+      
 
         <Routes>
           <Route path="/" element={<Index />} />

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next'; // this is for translation
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Code, Database, Palette } from 'lucide-react';
@@ -10,7 +9,6 @@ import skycreekDentalImg from '@/assets/screenshots/skycreek-dental.png';
 
 
 const Index = () => {
-  const { t } = useTranslation(); // ✅ Hook for translations
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
