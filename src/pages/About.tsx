@@ -60,7 +60,7 @@ const About = () => {
 
   const education = [
     {
-      degree: 'Bachelor of Information Technology',
+      degree: 'Bachelor degree of Information Technology',
       school: 'Damelin College',
       period: '2019-2022'
     },
